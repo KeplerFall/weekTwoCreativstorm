@@ -1,9 +1,59 @@
+@font-face {
+    font-family: "roboto";
+    src: url("./Fonts/Roboto-Light.ttf") format('truetype');
+}
+@font-face {
+    font-family: "roboto";
+    src: url("./Fonts/Roboto-Medium.ttf") format('truetype');
+}
+
 body{
     padding: 0;
     margin: 0;
     font-family: 'roboto';
 }
 
-.firstCtaTextContainer{
+.ctaContainer{
+    background-color: #1f2937;
+    padding: 150px 0;
+}
 
+.firstCta{
+    margin: 0 auto;
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.firstCtaTextContainer{
+    height: fit-content;
+}
+
+
+.firstCta h1{
+    font-family: "roboto";
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    max-width: 16ch;
+}
+
+.firstCta p{
+    font-family: "roboto";
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 45ch;
+    font-weight: 400;
+}
+
+.firstCtaButton{
+    background-color: #3882f6;
+    border: none;
+    padding: 5px 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
 }
