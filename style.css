@@ -2,9 +2,10 @@
     font-family: "roboto";
     src: url("./Fonts/Roboto-Light.ttf") format('truetype');
 }
+
 @font-face {
-    font-family: "roboto";
-    src: url("./Fonts/Roboto-Medium.ttf") format('truetype');
+    font-family: "robotoItalic";
+    src: url("./Fonts/Roboto-Italic.ttf") format('truetype');
 }
 
 body{
@@ -20,7 +21,7 @@ body{
 
 .firstCta{
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 1400px;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -56,4 +57,99 @@ body{
     font-size: 18px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.informationContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px 0;
+}
+
+.informationContainer h2{
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.informationCardsContainer{
+    display: flex;
+    gap: 30px;
+}
+
+.informationSmallContainer{
+    width: fit-content;
+}
+
+.informationSmallContainer picture{
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    display: flex;
+    height: 150px;
+    width: 150px;
+}
+
+.informationSmallContainer p{
+    text-align: center;
+    max-width: 150px;
+}
+
+.inspiringContainer{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 120px 0;
+}
+
+.inspiringQwote{
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0;
+    max-width: 900px;
+    font-style: italic;
+    font-family: "roboto";
+}
+
+.inspiringAuthor{
+    max-width: 750px;
+    width: 750px;
+    text-align: right;
+    font-family: "roboto";
+    font-weight: 700;
+}
+
+.secondCta{
+    max-width: 1280px;
+    margin: 100px auto;
+    border-radius: 15px;
+    padding: 30px 0;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.secondCta div, .secondCta button{
+    margin: 15px 150px
+}
+
+.secondCta .title{
+    font-weight: bold;
+    margin: 0;
+}
+
+.secondCta .subtitle{
+    margin: 0;
+}
+
+.secondCta button{
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 0 24px;
+    font-weight: bold;
 }
