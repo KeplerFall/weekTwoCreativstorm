@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
     font-family: 'Roboto';
     src: url('/Fonts/Roboto-Regular.ttf') format(truetype);
     font-weight: normal;
@@ -99,6 +99,20 @@ nav{
     font-weight: normal;
 }
 
+.col-1 .btn1{
+    margin-top: 10px;
+    display: inline-block;
+    width: fit-content ;
+    padding: 18px 50px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer
+}
+
 .col-2 h2{
     position: absolute;
     top: 22%;
@@ -123,6 +137,7 @@ main{
     width: fit-content ;
     padding: 18px 50px;
     background-color: red;
+    color: #E5E7EB;
     border: none;
     font-size: 18px;
     margin-top: 20px;
