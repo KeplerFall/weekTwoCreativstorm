@@ -137,7 +137,7 @@ html {
 }
 .apart__content {
 	display: flex;
-	align-items: center;
+	align-items: stretch;
 	justify-content: space-around;
 }
 .apart__square {
@@ -210,4 +210,40 @@ html {
 }
 .about-btn:active {
 	transform: scale(1);
+}
+
+@media only screen and (max-width: 1000px) {
+    .heroo {
+        padding: 50px 30px;
+    }
+    .about, .mission, .apart__content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about, .mission {
+        align-items: flex-start;
+        padding: 30px 20px;
+    }
+    .mission .about__heading {
+        margin-top: 20px;
+    }
+    .about__paragraph {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .about__image, .mission__image {
+        max-width: 100%;
+    }
+    .apart__content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .apart__square {
+        width: 40%;
+        min-width: 250px;
+    }
+    .team__members {
+        flex-wrap: wrap;
+    }
 }
