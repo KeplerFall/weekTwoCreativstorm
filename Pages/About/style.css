@@ -56,30 +56,29 @@ header logo: 24px
 }
 html {
 	box-sizing: border-box;
-	font-size: 62.5%;
 }
 /*About us hero styles*/
-.hero {
+.heroo {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20rem 7rem;
+	padding: 200px 70px;
 	background-color: var(--hero);
 }
-.hero .hero__heading {
-	font-size: 4.8rem;
+.heroo .hero__heading {
+	font-size: 48px;
 	color: var(--white-color);
 	font-family: 'roboto-bold', sans-serif;
 }
-.hero .hero__paragraph {
-	font-size: 1.8rem;
+.heroo .hero__paragraph {
+	font-size: 18px;
 	color: var(--secondry-white-color);
 	font-family: 'roboto', sans-serif;
 }
 /*About company styles*/
 .about,
 .mission {
-	padding: 10rem 7rem 5rem;
+	padding: 100px 70px 50px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -88,19 +87,19 @@ html {
 	flex: 0 0 45%;
 }
 .about__heading {
-	font-size: 3.6rem;
+	font-size: 36px;
 	font-family: 'roboto-bold', sans-serif;
 	color: var(--primary-color);
-	margin-bottom: 2rem;
+	margin-bottom: 20px;
 }
 .about_subheading {
-	font-size: 1.9rem;
+	font-size: 19px;
 	font-family: 'roboto-bold', sans-serif;
 	color: var(--primary-color);
-	margin-bottom: 2rem;
+	margin-bottom: 2opx;
 }
 .about__paragraph {
-	font-size: 1.6rem;
+	font-size: 16px;
 	width: 75%;
 	line-height: 1.6;
 	color: var(--very-dark-grey);
@@ -109,12 +108,12 @@ html {
 .about__image,
 .mission__image {
 	flex: 0 0 30%;
-	width: 60rem;
+	width: 600px;
 }
 /* who-we-are styles*/
 .who-we-are,
 .join-us {
-	padding: 10rem 7rem;
+	padding: 100px 70px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -130,7 +129,7 @@ html {
 }
 /*apart*/
 .apart {
-	padding: 10rem 7rem;
+	padding: 100px 70px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -148,22 +147,22 @@ html {
 	align-items: center;
 	border: 1px solid var(--button-color);
 	border-radius: 8px;
-	margin: 2rem;
-	padding: 3rem;
+	margin: 20px;
+	padding: 30px;
 }
 .apart__paragraph {
-	font-size: 1.6rem;
+	font-size: 16px;
 	line-height: 1.6;
 	color: var(--very-dark-grey);
 	font-family: 'roboto', sans-serif;
 	text-align: center;
 }
 .apart__icon {
-	margin-bottom: 2rem;
+	margin-bottom: 20px;
 }
 /*team styles*/
 .team {
-	padding: 7rem 5rem;
+	padding: 70px 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -179,18 +178,18 @@ html {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 3rem;
-	margin: 3rem;
+	padding: 30px;
+	margin: 30px;
 }
 .team-image {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
-	margin-bottom: 2rem;
-	border: 0.3rem solid var(--button-color);
+	margin-bottom: 20px;
+	border: 3px solid var(--button-color);
 }
 .jon-us__paragraph {
-	font-size: 2rem;
+	font-size: 20px;
 	line-height: 1.6;
 	color: var(--dark-grey);
 	font-family: 'roboto-italic', sans-serif;
@@ -198,12 +197,12 @@ html {
 }
 .about-btn {
 	text-decoration: none;
-	padding: 1.5rem 2rem;
-	border-radius: 2.5rem;
+	padding: 15px 20px;
+	border-radius: 25px;
 	background-color: var(--button-color);
 	color: var(--white-color);
-	font-size: 1.8rem;
-	margin-top: 2rem;
+	font-size: 18px;
+	margin-top: 20px;
 	transition: all 0.1s;
 }
 .about-btn:hover {
