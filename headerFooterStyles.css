@@ -37,9 +37,15 @@ header nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
+
 }
 header nav ul li {
     margin: 0 10px;
+    color: #e5e7eb;
+	padding: 8px;
+	border-radius: 5px;
+	background-color: #3882f6;
+
 }
 header nav ul li a {
     color: #E5E7EB;

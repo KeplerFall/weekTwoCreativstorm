@@ -1,5 +1,5 @@
-/* * 
-colors 
+/* *
+colors
 
 - hero and footer dark background :
  hero #1f2937;
@@ -14,7 +14,7 @@ colors
 - dark--grey: #e5e7eb;
 - very-dark grey: #1f2937;
 
-fonts: 
+fonts:
 h1:48 extra-bold;
 h2:36 extra-bold;
 p: 28
@@ -57,6 +57,16 @@ header logo: 24px
 html {
 	box-sizing: border-box;
 }
+
+.about-nav > ul > li {
+	color: #e5e7eb;
+	padding: 8px;
+	border-radius: 5px;
+	background-color: #3882f6;
+	display: inline-block;
+	margin-right: 20px; /* Optional: space out the list items horizontally */
+  }
+
 /*About us hero styles*/
 .heroo {
 	display: flex;
