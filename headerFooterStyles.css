@@ -30,7 +30,8 @@ header nav {
 }
 .logo {
     color: #F9FAF8;
-    font-family: "Roboto Bold", sans-serif;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 24px;
 }
 header nav ul {
     display: flex;
@@ -95,7 +96,7 @@ div.hero {
 }
 footer {
     color: #E5E7EB;
-    font-family: "Roboto Light";
+    font-family: "Roboto Light", sans-serif;
     font-size: 18px;
     text-align: center;
     padding: 15px;
