@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
     font-family: 'Roboto';
     src: url('/Fonts/Roboto-Regular.ttf') format(truetype);
     font-weight: normal;
@@ -24,7 +24,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 8%;
+    padding: 20px 8%;
     position: fixed;
     top: 0;
     width: 100%;
@@ -42,6 +42,21 @@ nav{
     cursor: pointer;
 }
 
+.nav-icons{display: flex;
+           justify-content: space-around;
+           align-items: center;
+}
+
+.links{
+    margin-right: 400px;
+}
+.links a{
+    color: #E5E7EB;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: regular;
+}
 .captext{
     color: #f9faf8;
     font-weight: 24px;
@@ -98,6 +113,21 @@ nav{
     font-weight: normal;
 }
 
+.col-1 .btn1{
+    margin-top: 10px;
+    display: inline-block;
+    width: fit-content ;
+    padding: 18px 50px;
+    background-color: #3882f6;
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer
+}
+
 .col-2 h2{
     position: absolute;
     top: 22%;
@@ -116,13 +146,14 @@ main{
     top: 0;
    
 }
-
 .btn{
     display: inline-block;
     width: fit-content ;
     padding: 18px 50px;
     background-color: red;
+    color: #E5E7EB;
     border: none;
+    font-family: 'Roboto2' sans-serif;
     font-size: 18px;
     margin-top: 20px;
     border-radius: 20px;
@@ -179,20 +210,26 @@ main{
 }
 
 footer{
-    height: 150px;
    background-color: #1f2937;
+   width: 100%;
+   height: 150px;
+   color: #E5E7EB;
+   font-family: "Roboto Light";
+   font-size: 12px;
+   padding: 10px;
 }
-@media only screen and (max-width: 1000px) {
-    .row {
-        flex-direction: column;
-    }
-    .col-1 {
-        margin-bottom: 8%;
-    }
-    .col-2 {
-        padding-bottom: 8%;
-    }
-    .col-1, .col-2 {
-        height: 50%;
-    }
+
+.footer-part{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 70px;
+   right: 100px;
+   left: 10px;
+   text-align: center;
+}
+
+.footer-part img{
+    width: 15px;
 }
