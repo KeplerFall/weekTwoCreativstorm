@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'roboto', sans-serif;
     background-color: #1f2937;
@@ -57,3 +58,64 @@ button {
 button:hover {
     background-color: #45a049;
 }
+=======
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: #1f2937;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    color: #ffffff;
+    margin-top: 50px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    background-color: #05012975;
+}
+nav a {
+    margin: 0 10px;
+    color: #05012975;
+    text-decoration: none;
+    background-color: #f8f8f8;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 20px;
+    color: #ffffff;
+}
+input, textarea {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+>>>>>>> 26171d4629fa9b51b4ec48d9e3301e8fdf125d41
