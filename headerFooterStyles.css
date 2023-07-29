@@ -44,7 +44,6 @@ header nav ul li {
     color: #e5e7eb;
 	padding: 8px;
 	border-radius: 5px;
-	background-color: #3882f6;
 
 }
 header nav ul li a {
@@ -93,7 +92,6 @@ div.hero {
     z-index: -1;
 }
 .main-button {
-    background-color: #3882F6;
     color: #F9FAF8;
     font-family: "Roboto Medium", sans-serif;
     padding: 5px 20px;
@@ -124,7 +122,6 @@ footer {
 	color: #e5e7eb;
 	padding: 8px;
 	border-radius: 5px;
-	background-color: #3882f6;
 	display: inline-block;
 	margin-right: 20px; /* Optional: space out the list items horizontally */
   }
