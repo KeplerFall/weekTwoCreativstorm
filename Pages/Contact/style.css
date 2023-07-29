@@ -15,23 +15,6 @@ h1 {
 
 }
 
-nav {
-    display: flex;
-    justify-content: flex-start;
-    background-color: #f8f8f8;
-    padding: 15px 0;
-    background-color: #05012975;
-}
-nav a {
-    margin: 0 10px;
-    color: #05012975;
-    text-decoration: none;
-    background-color: #f8f8f8;
-    padding: 8px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
 form {
     display: flex;
     flex-direction: column;
@@ -56,4 +39,9 @@ button {
 }
 button:hover {
     background-color: #45a049;
+}
+
+
+textarea{
+    height: 150px;
 }
