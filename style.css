@@ -17,22 +17,21 @@ body {
 .nav-flex {
 	display: flex;
 	align-items: center; /* Optional: align vertically to the center */
-  }
+}
 
-  .nav-flex > ul {
+.nav-flex > ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-  }
+}
 
-  .nav-flex > ul > li {
+.nav-flex > ul > li {
 	color: #e5e7eb;
 	padding: 8px;
 	border-radius: 5px;
 	display: inline-block;
 	margin-right: 20px; /* Optional: space out the list items horizontally */
-  }
-
+}
 
 .ctaContainer {
 	background-color: #1f2937;
@@ -40,7 +39,7 @@ body {
 }
 
 .firstCtaPictureContainer {
-	width:700px;
+	width: 700px;
 	height: auto;
 }
 
@@ -55,11 +54,10 @@ body {
 	object-fit: contain;
 }
 
-
 .firstCtaPictureContainer img {
 	width: 100%;
-  height: 100%;
-  object-fit: cover;
+	height: 100%;
+	object-fit: cover;
 }
 
 .firstCta {
@@ -89,9 +87,10 @@ body {
 	color: #e5e7eb;
 	max-width: 45ch;
 	font-weight: 400;
+	margin-bottom: 25px;
 }
 
-.firstCtaButton {
+/* .firstCtaButton {
 	background-color: #3882f6;
 	border: none;
 	padding: 5px 30px;
@@ -99,7 +98,7 @@ body {
 	font-size: 18px;
 	border-radius: 8px;
 	cursor: pointer;
-}
+} */
 
 .informationContainer {
 	display: flex;
@@ -188,66 +187,94 @@ body {
 	margin: 0;
 }
 
-.secondCta button {
+/* .secondCta button {
 	color: white;
 	background-color: #3882f6;
 	border: 2px solid white;
 	border-radius: 12px;
 	padding: 0 24px;
 	font-weight: bold;
+} */
+.about-btnn {
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 50px;
+	margin-top: 20px;
+	background-color: #3882f6;
+	color: #f9faf8;
+	font-size: 18px;
+	margin-top: 20px;
+	transition: all 0.1s;
 }
-
+.call-btnn {
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 50px;
+	margin-right: 20px;
+	background-color: #f9faf8;
+	color: #3882f6;
+	font-size: 18px;
+	margin-top: 20px;
+	transition: all 0.1s;
+}
+.about-btnn:hover {
+	padding: 15px 20px;
+}
+.about-btnn:active {
+	padding: 10px 15px;
+}
 @media screen and (max-width: 468px) {
-    /* Navbar */
-    .nav-flex {
-        flex-direction: column;
-    }
+	/* Navbar */
+	.nav-flex {
+		flex-direction: column;
+	}
 
-    .nav-flex > ul > li {
-        display: block;
-        margin-bottom: 20px;
-    }
+	.nav-flex > ul > li {
+		display: block;
+		margin-bottom: 20px;
+	}
 
-    /* ctaContainer */
-    .firstCta {
-        flex-direction: column;
-    }
+	/* ctaContainer */
+	.firstCta {
+		flex-direction: column;
+	}
 
-    .firstCtaPictureContainer {
-        width: 100%;
-    }
+	.firstCtaPictureContainer {
+		width: 100%;
+	}
 
-    /* informationContainer */
-    .informationCardsContainer {
-        flex-direction: column;
-    }
+	/* informationContainer */
+	.informationCardsContainer {
+		flex-direction: column;
+	}
 
-    /* Font sizes */
-    .firstCta h1 {
-        font-size: 36px;
-    }
+	/* Font sizes */
+	.firstCta h1 {
+		font-size: 36px;
+	}
 
-    .firstCta p, .firstCtaButton {
-        font-size: 16px;
-    }
+	.firstCta p,
+	.firstCtaButton {
+		font-size: 16px;
+	}
 
-    .informationContainer h2 {
-        font-size: 30px;
-    }
+	.informationContainer h2 {
+		font-size: 30px;
+	}
 
-    .inspiringQwote {
-        font-size: 24px;
+	.inspiringQwote {
+		font-size: 24px;
 		text-align: center;
-    }
+	}
 
-    /* secondCta */
-    .secondCta {
-        flex-direction: column;
-        align-items: center;
-    }
+	/* secondCta */
+	.secondCta {
+		flex-direction: column;
+		align-items: center;
+	}
 
-    .secondCta div, .secondCta button {
-        margin: 15px auto;
-    }
+	/* .secondCta div,
+	.secondCta button {
+		margin: 15px auto;
+	} */
 }
-
