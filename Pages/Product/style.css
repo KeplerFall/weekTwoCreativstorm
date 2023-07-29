@@ -56,6 +56,7 @@ nav{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: regular;
+    padding: 8px;
 }
 .captext{
     color: #f9faf8;
@@ -213,10 +214,13 @@ footer{
    background-color: #1f2937;
    width: 100%;
    height: 150px;
-   color: #E5E7EB;
-   font-family: "Roboto Light";
-   font-size: 12px;
+   
    padding: 10px;
+}
+footer h2{
+    color: #E5E7EB;
+    font-family: "Roboto Light";
+    font-size: 18px;
 }
 
 .footer-part{
